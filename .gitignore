@@ -6,4 +6,7 @@
 !/.vim/
 !/.vim/**
 !/.vimrc
-!README.md
+!/README.md
+
+# --- повторно отключаем
+/.vim/.netrwhist

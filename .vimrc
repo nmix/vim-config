@@ -83,8 +83,10 @@ let g:golang_goroot = "/usr/lib/go-1.10"
 let g:rails_projections = {
       \ "config/projections.json": {
       \   "command": "projections"
-      \ }
-      \ }}  
+      \ },                                                               
+      \ "app/interactors/*.rb": {
+      \   "command": "int",
+      \ }} 
 
 " --- изменение комментария по умполчанию для yml-файлов в rails-проектах
 autocmd FileType eruby.yaml setlocal commentstring=#\ %s
