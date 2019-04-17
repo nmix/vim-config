@@ -28,5 +28,5 @@ git init
 git remote add origin git@github.com:nmix/vim-config.git
 git fetch
 git checkout -t origin/master
-git submodule update --recursive  --remote
+git submodule update --init --recursive  --remote
 ```
