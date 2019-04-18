@@ -9,13 +9,13 @@
 	url = https://tpope.io/vim/dispatch.git
 [submodule ".vim/bundle/vim-bundler"]
 	path = .vim/bundle/vim-bundler
-	url = git://github.com/tpope/vim-bundler.git
+	url = https://github.com/tpope/vim-bundler.git
 [submodule ".vim/bundle/vim-commentary"]
 	path = .vim/bundle/vim-commentary
 	url = https://tpope.io/vim/commentary.git
 [submodule ".vim/bundle/vim-cyr"]
 	path = .vim/bundle/vim-cyr
-	url = git@github.com:powerman/vim-plugin-ruscmd.git
+	url = https://github.com/powerman/vim-plugin-ruscmd.git
 [submodule ".vim/bundle/vim-javascript-syntax"]
 	path = .vim/bundle/vim-javascript-syntax
 	url = https://github.com/jelera/vim-javascript-syntax.git
