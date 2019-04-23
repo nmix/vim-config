@@ -13,7 +13,7 @@ filetype plugin indent on
 autocmd FileType solidity setlocal ts=4 sts=4 sw=4 et
 autocmd FileType javascript setlocal ts=4 sts=4 sw=4 et
 autocmd FileType ruby setlocal ts=2 sts=2 sw=2 et
-autocmd FileType eruby setlocal ts=2 sts=2 sw=2 et
+autocmd FileType eruby setlocal ts=4 sts=4 sw=4 et
 autocmd FileType eruby.yaml setlocal ts=2 sts=2 sw=2 et
 autocmd FileType sh setlocal ts=2 sts=2 sw=2 et
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 et
@@ -84,6 +84,9 @@ let g:rails_projections = {
       \ "config/projections.json": {
       \   "command": "projections"
       \ },                                                               
+      \ "app/queries/*.rb": {
+      \   "command": "qu",
+      \ },
       \ "app/interactors/*.rb": {
       \   "command": "int",
       \ }} 
