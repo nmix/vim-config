@@ -19,6 +19,7 @@ autocmd FileType sh setlocal ts=2 sts=2 sw=2 et
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 et
 autocmd FileType go setlocal ts=4 sts=4 sw=4
 autocmd FileType vue setlocal ts=2 sts=2 sw=2 et
+autocmd FileType scss setlocal ts=2 sts=2 sw=2 et
 
 " --- подсвечиваем текущую строку
 set cursorline
@@ -81,9 +82,6 @@ set foldlevel=20
 let g:golang_goroot = "/usr/lib/go-1.10"
 
 let g:rails_projections = {
-      \ "config/projections.json": {
-      \   "command": "projections"
-      \ },                                                               
       \ "app/queries/*.rb": {
       \   "command": "qu",
       \ },
