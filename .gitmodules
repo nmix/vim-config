@@ -25,3 +25,9 @@
 [submodule ".vim/bundle/vim-surround"]
 	path = .vim/bundle/vim-surround
 	url = https://tpope.io/vim/surround.git
+[submodule ".vim/bundle/vim-go"]
+	path = .vim/bundle/vim-go
+	url = https://github.com/fatih/vim-go.git
+[submodule ".vim/bundle/vim-compiler-go"]
+	path = .vim/bundle/vim-compiler-go
+	url = https://github.com/rjohnsondev/vim-compiler-go.git

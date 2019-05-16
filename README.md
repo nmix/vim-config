@@ -1,6 +1,6 @@
 # vim-config
 
-**vim-config** - конфигурация текстового редактора [vim](https://vim8.org) для работы преимущественно в RubyOnRails.
+**vim-config** - конфигурация редактора [vim](https://vim8.org) для работы преимущественно в RubyOnRails и GoLang.
 
 ## Состав модулей
 
@@ -13,6 +13,8 @@
 * [surround.vim](https://github.com/tpope/vim-surround)
 * [ruscmd](https://github.com/powerman/vim-plugin-ruscmd)
 * [sensible.vim](https://github.com/tpope/vim-sensible)
+* [vim-go](https://github.com/fatih/vim-go)
+* [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go)
 
 ## Цветовая схема
 
