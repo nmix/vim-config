@@ -94,7 +94,7 @@ autocmd FileType eruby.yaml setlocal commentstring=#\ %s
 
 let g:rails_projections = {
       \ "app/queries/*.rb": {
-      \   "command": "qu",
+      \   "command": "query",
       \ },
       \ "app/interactors/*.rb": {
       \   "command": "int",
