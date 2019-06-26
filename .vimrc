@@ -96,6 +96,12 @@ let g:rails_projections = {
       \ "app/queries/*.rb": {
       \   "command": "query",
       \ },
+      \ "app/activeresources/*.rb": {
+      \   "command": "ares",
+      \ },
+      \ "app/admin/*.rb": {
+      \   "command": "admin",
+      \ },
       \ "app/interactors/*.rb": {
       \   "command": "int",
       \ }} 
