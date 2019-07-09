@@ -74,6 +74,8 @@ hi Normal guibg=NONE ctermbg=NONE
 autocmd FileType sh setlocal ts=2 sts=2 sw=2 et
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 et
 
+au BufRead,BufNewFile Vagrantfile.* setfiletype ruby
+
 " --- отключение стандартной разметки Markdown
 "     см. https://github.com/plasticboy/vim-markdown
 let g:vim_markdown_folding_disabled = 1
