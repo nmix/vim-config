@@ -21,7 +21,7 @@
 ```bash
 # --- первоначальная установка
 cd
-git clone git@github.com:nmix/vim-config.git .vim-config
+git clone https://github.com/nmix/vim-config.git .vim-config
 ln -s ~/.vim-config/.vimrc .vimrc
 ln -sfnv ~/.vim-config/.vim .vim
 cd .vim-config
