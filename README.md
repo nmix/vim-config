@@ -16,19 +16,25 @@
 * [vim-go](https://github.com/fatih/vim-go)
 * [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go)
 
+## Использование
+
+```bash
+# --- первоначальная установка
+cd
+git clone git@github.com:nmix/vim-config.git .vim-config
+ln -s ~/.vim-config/.vimrc .vimrc
+ln -sfnv ~/.vim-config/.vim .vim
+cd .vim-config
+git submodule update --init --recursive  --remote
+
+# --- обновление
+cd ~/.vim-config
+git submodule update --init --recursive  --remote
+```
+
 ## Цветовая схема
 
 [Vim Railscasts Colorscheme](https://github.com/jpo/vim-railscasts-theme)
 
 ![color-scheme](https://purl.onrails.ru/files/e655a0c0-6886-4b80-9d64-7382e8266bea.jpeg)
 
-## Использование
-
-```bash
-cd
-git init
-git remote add origin https://github.com/nmix/vim-config.git
-git fetch
-git checkout -t origin/master
-git submodule update --init --recursive  --remote
-```
