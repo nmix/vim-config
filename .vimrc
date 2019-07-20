@@ -73,6 +73,7 @@ hi Normal guibg=NONE ctermbg=NONE
 
 autocmd FileType sh setlocal ts=2 sts=2 sw=2 et
 autocmd FileType yaml setlocal ts=2 sts=2 sw=2 et
+autocmd FileType xml setlocal ts=4 sts=4 sw=4 noet
 
 au BufRead,BufNewFile Vagrantfile.* setfiletype ruby
 
