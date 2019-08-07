@@ -5,6 +5,9 @@ syntax on
 " --- ?
 filetype plugin indent on
 
+" --- разрешаем локальные .vimrc
+set exrc
+
 " --- подсвечиваем текущую строку
 set cursorline
 
@@ -124,3 +127,8 @@ let g:golang_goroot = "/usr/local/go"
 
 autocmd FileType solidity setlocal ts=4 sts=4 sw=4 et
 
+
+" ===================================================================
+" --- Final Section (must be the last)
+" ===================================================================
+set secure
