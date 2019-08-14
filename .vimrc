@@ -42,9 +42,6 @@ imap <C-o> <Esc>O
 " --- Ctrl-l вставка пустой строки ниже и переход на нее
 imap <C-l> <Esc>o
 
-" --- цветовая схема RailsCasts
-"     см. https://github.com/jpo/vim-railscasts-theme
-colorscheme railscasts
 
 " --- определение псевдонимов для стандартных команд
 command WQ wq
@@ -127,8 +124,11 @@ let g:golang_goroot = "/usr/local/go"
 
 autocmd FileType solidity setlocal ts=4 sts=4 sw=4 et
 
-
 " ===================================================================
-" --- Final Section (must be the last)
+" --- Final Section
 " ===================================================================
 set secure
+
+" --- цветовая схема RailsCasts
+"     см. https://github.com/jpo/vim-railscasts-theme
+colorscheme railscasts
