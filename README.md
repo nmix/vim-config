@@ -4,17 +4,18 @@
 
 ## Состав модулей
 
-* [rails.vim](https://github.com/tpope/vim-rails)
 * [bundler.vim](https://github.com/tpope/vim-bundler)
-* [dispatch.vim](https://github.com/tpope/vim-dispatch)
-* [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
-* [vim-markdown](https://github.com/plasticboy/vim-markdown)
 * [commentary.vim](https://github.com/tpope/vim-commentary)
-* [surround.vim](https://github.com/tpope/vim-surround)
+* [dispatch.vim](https://github.com/tpope/vim-dispatch)
+* [rails.vim](https://github.com/tpope/vim-rails)
 * [ruscmd](https://github.com/powerman/vim-plugin-ruscmd)
 * [sensible.vim](https://github.com/tpope/vim-sensible)
-* [vim-go](https://github.com/fatih/vim-go)
+* [surround.vim](https://github.com/tpope/vim-surround)
 * [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go)
+* [vim-go](https://github.com/fatih/vim-go)
+* [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
+* [vim-markdown](https://github.com/plasticboy/vim-markdown)
+* [vim-toml](https://github.com/cespare/vim-toml)
 
 ## Использование
 
@@ -30,6 +31,12 @@ git submodule update --init --recursive  --remote
 # --- обновление
 cd ~/.vim-config
 git submodule update --init --recursive  --remote
+
+# --- добавление модуля (напр. vim-toml)
+git submodule add https://github.com/cespare/vim-toml.git .vim/bundle/vim-toml
+git add .
+git commit -m 'added toml module'
+git push -u origin master
 ```
 
 ## Цветовая схема
