@@ -33,15 +33,11 @@ set listchars=tab:>·,trail:~,extends:>,precedes:<,space:.
 " nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
 " nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
-" --- отображение файлов директории по F2
-map <F2> :ls<CR>
-
 " --- Переопределение клавиш в режиме Insert
 " Ctrl-o вставка пустой строки выше и переход на нее 
 imap <C-o> <Esc>O
 " --- Ctrl-l вставка пустой строки ниже и переход на нее
 imap <C-l> <Esc>o
-
 
 " --- определение псевдонимов для стандартных команд
 command WQ wq
@@ -115,14 +111,13 @@ let g:rails_projections = {
 
 autocmd FileType go setlocal ts=4 sts=4 sw=4
 
-" --- переменная для vim-compiler-go
 let g:golang_goroot = "/usr/local/go"
-
-" ===================================================================
-" --- Solidity Section
-" ===================================================================
-
-autocmd FileType solidity setlocal ts=4 sts=4 sw=4 et
+" --- отключение форматирования при сохранении
+" let g:go_fmt_autosave = 0
+" --- изменение команды форматтера
+" let g:go_fmt_command = 'goimports'
+" --- подсветка типов
+" let g:go_highlight_types = 1
 
 " ===================================================================
 " --- Final Section
