@@ -11,7 +11,6 @@
 * [ruscmd](https://github.com/powerman/vim-plugin-ruscmd)
 * [sensible.vim](https://github.com/tpope/vim-sensible)
 * [surround.vim](https://github.com/tpope/vim-surround)
-* [vim-compiler-go](https://github.com/rjohnsondev/vim-compiler-go)
 * [vim-go](https://github.com/fatih/vim-go)
 * [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 * [vim-markdown](https://github.com/plasticboy/vim-markdown)

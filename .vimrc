@@ -109,9 +109,8 @@ let g:rails_projections = {
 " --- GoLang Section
 " ===================================================================
 
-autocmd FileType go setlocal ts=4 sts=4 sw=4
+autocmd FileType go setlocal ts=4 sts=4 sw=4 noet
 
-let g:golang_goroot = "/usr/local/go"
 " --- отключение форматирования при сохранении
 " let g:go_fmt_autosave = 0
 " --- изменение команды форматтера
