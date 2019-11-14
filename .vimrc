@@ -77,6 +77,9 @@ au BufRead,BufNewFile Vagrantfile.* setfiletype ruby
 "     см. https://github.com/plasticboy/vim-markdown
 let g:vim_markdown_folding_disabled = 1
 
+" --- скрываем файлы в explorer
+let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
+
 " ===================================================================
 " --- Ruby on Rails Section
 " ===================================================================
