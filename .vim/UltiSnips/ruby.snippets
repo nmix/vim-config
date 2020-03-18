@@ -1,0 +1,48 @@
+global !p
+def upperfirst(t):
+	if len(t) < 2:
+		return '' if len(t) < 1 else t.capitalize()
+	return t[0].capitalize() + t[1:]
+def lowerdash(t):
+	return '-'.join([ w.lower() for w in re.findall('[a-z]+|[A-Z]+[a-z]*', t) ])
+def snake(t):
+	return '_'.join([ w.lower() for w in re.findall('[a-z]+|[A-Z]+[a-z]*', t) ])
+endglobal
+
+snippet llc "one line class"
+class $1; end
+endsnippet
+
+snippet xc "class with include XML::Mapping"
+class ${1}
+  include XML::Mapping$0
+end
+endsnippet
+
+snippet tn "text_node"
+text_node :$2`!p snip.rv=snake(t[1])`, '$1'
+endsnippet
+
+snippet tno "text_node optional"
+text_node :$2`!p snip.rv=snake(t[1])`, '$1', optional: true
+endsnippet
+
+snippet opt "optional: true" i
+, optional: true
+endsnippet
+
+snippet on "object_node"
+object_node :$2`!p snip.rv=snake(t[1])`, '$1',
+            class: ${3:`!p snip.rv=upperfirst(t[1])`}
+endsnippet
+
+
+# --- EXAMPLES
+
+snippet rc "require package that converts from camelCase or PascalCase to kebab-cased" b
+const $1 = require('$2`!p snip.rv=lowerdash(t[1])`');
+endsnippet
+
+snippet imp "import package that converts from camelCase or PascalCase to kebab-cased" b
+import $1 from '$2`!p snip.rv=lowerdash(t[1])`';
+endsnippet

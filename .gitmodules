@@ -37,3 +37,9 @@
 [submodule ".vim/bundle/vim-nginx"]
 	path = .vim/bundle/vim-nginx
 	url = https://github.com/chr4/nginx.vim
+[submodule ".vim/bundle/vim-ultisnips"]
+	path = .vim/bundle/vim-ultisnips
+	url = https://github.com/SirVer/ultisnips.git
+[submodule ".vim/bundle/vim-snippets"]
+	path = .vim/bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
