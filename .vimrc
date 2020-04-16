@@ -21,6 +21,9 @@ set colorcolumn=70
 "     (отключение режима отображения :set nolist
 set listchars=tab:>·,trail:~,extends:>,precedes:<,space:.
 
+" --- включаем автоматическое добавления комментария для новой строки
+set formatoptions+=r
+
 " --- Alt-j/k удаляет пустые строки под/над курсором
 "     (для включения обработки клавиши Alt надо поплясать с бубном)
 " nnoremap <silent><A-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
@@ -81,7 +84,7 @@ let g:vim_markdown_folding_disabled = 1
 " --- скрываем файлы в explorer
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
 
-let g:UltiSnipsExpandTrigger="<c-q>"
+let g:UltiSnipsExpandTrigger="<c-w>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 

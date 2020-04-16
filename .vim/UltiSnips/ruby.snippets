@@ -9,6 +9,10 @@ def snake(t):
 	return '_'.join([ w.lower() for w in re.findall('[a-z]+|[A-Z]+[a-z]*', t) ])
 endglobal
 
+snippet ixm "include XML::Mapping"
+include XML::Mapping
+endsnippet
+
 snippet llc "one line class"
 class $1; end
 endsnippet
@@ -23,8 +27,18 @@ snippet tn "text_node"
 text_node :$2`!p snip.rv=snake(t[1])`, '$1'
 endsnippet
 
+snippet (tn "text_node"
+(text_node :$2`!p snip.rv=snake(t[1])`, '$1')
+endsnippet
+
 snippet tno "text_node optional"
 text_node :$2`!p snip.rv=snake(t[1])`, '$1', optional: true
+endsnippet
+
+snippet (tno "text_node optional"
+(text_node :$2`!p snip.rv=snake(t[1])`,
+           '$1',
+           optional: true)
 endsnippet
 
 snippet opt "optional: true" i
@@ -34,6 +48,17 @@ endsnippet
 snippet on "object_node"
 object_node :$2`!p snip.rv=snake(t[1])`, '$1',
             class: ${3:`!p snip.rv=upperfirst(t[1])`}
+endsnippet
+
+snippet ono "object_node"
+object_node :$2`!p snip.rv=snake(t[1])`, '$1',
+            class: ${3:`!p snip.rv=upperfirst(t[1])`},
+            optional: true
+endsnippet
+
+snippet (on "object_node"
+(object_node :$2`!p snip.rv=snake(t[1])`, '$1',
+             class: ${3:`!p snip.rv=upperfirst(t[1])`})
 endsnippet
 
 
