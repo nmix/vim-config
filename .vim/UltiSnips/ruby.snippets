@@ -61,6 +61,18 @@ snippet (on "object_node"
              class: ${3:`!p snip.rv=upperfirst(t[1])`})
 endsnippet
 
+snippet ite "it expect"
+it { expect($1).to eq('') }$0
+endsnippet
+
+snippet ith "it expect to_hash"
+it do
+  expect($1.to_hash).to eq(
+    $2
+  )
+end
+endsnippet
+
 
 # --- EXAMPLES
 
