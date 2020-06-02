@@ -23,6 +23,8 @@ set listchars=tab:>·,trail:~,extends:>,precedes:<,space:.
 
 " --- вкл/выкл режима <вклейки> по F2
 set pastetoggle=<F2>
+" --- включаем автоматическое добавления комментария для новой строки
+set formatoptions+=r
 
 " --- Переопределение клавиш в режиме Insert
 " Ctrl-o вставка пустой строки выше и переход на нее 
@@ -73,7 +75,7 @@ let g:vim_markdown_folding_disabled = 1
 " --- скрываем файлы в explorer
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
 
-let g:UltiSnipsExpandTrigger="<c-q>"
+let g:UltiSnipsExpandTrigger="<c-w>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
