@@ -21,20 +21,10 @@ set colorcolumn=70
 "     (отключение режима отображения :set nolist
 set listchars=tab:>·,trail:~,extends:>,precedes:<,space:.
 
+" --- вкл/выкл режима <вклейки> по F2
+set pastetoggle=<F2>
 " --- включаем автоматическое добавления комментария для новой строки
 set formatoptions+=r
-
-" --- Alt-j/k удаляет пустые строки под/над курсором
-"     (для включения обработки клавиши Alt надо поплясать с бубном)
-" nnoremap <silent><A-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
-" nnoremap <silent><A-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
-"
-
-" Ctrl-j/k deletes blank line below/above, and Alt-j/k inserts.
-" nnoremap <silent><C-j> m`:silent +g/\m^\s*$/d<CR>``:noh<CR>
-" nnoremap <silent><C-k> m`:silent -g/\m^\s*$/d<CR>``:noh<CR>
-" nnoremap <silent><A-j> :set paste<CR>m`o<Esc>``:set nopaste<CR>
-" nnoremap <silent><A-k> :set paste<CR>m`O<Esc>``:set nopaste<CR>
 
 " --- Переопределение клавиш в режиме Insert
 " Ctrl-o вставка пустой строки выше и переход на нее 
@@ -76,6 +66,7 @@ autocmd FileType xml setlocal ts=4 sts=4 sw=4 noet
 autocmd FileType dockerfile setlocal ts=4 sts=4 sw=4 et
 
 au BufRead,BufNewFile Vagrantfile.* setfiletype ruby
+au BufRead,BufNewFile *.conf setfiletype conf
 
 " --- отключение стандартной разметки Markdown
 "     см. https://github.com/plasticboy/vim-markdown
