@@ -23,8 +23,12 @@ set listchars=tab:>·,trail:~,extends:>,precedes:<,space:.
 
 " --- вкл/выкл режима <вклейки> по F2
 set pastetoggle=<F2>
+
 " --- включаем автоматическое добавления комментария для новой строки
 set formatoptions+=r
+
+" --- используем системный буфер обмена по умолчанию
+set clipboard=unnamedplus
 
 " --- Переопределение клавиш в режиме Insert
 " Ctrl-o вставка пустой строки выше и переход на нее 
@@ -122,6 +126,16 @@ autocmd FileType go setlocal ts=4 sts=4 sw=4 noet
 " let g:go_fmt_command = 'goimports'
 " --- подсветка типов
 " let g:go_highlight_types = 1
+
+
+" ===================================================================
+" --- FZF Section
+" ===================================================================
+
+" sudo apt-get install fzf
+" cd ~/.vim-config/.vim/bundle
+" git clone https://github.com/junegunn/fzf
+nnoremap <C-p> :<C-u>FZF<CR>
 
 " ===================================================================
 " --- Final Section
