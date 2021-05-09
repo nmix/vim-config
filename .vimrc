@@ -11,8 +11,15 @@ set exrc
 " --- подсвечиваем текущую строку
 set cursorline
 
-" --- отображаем номера строк
-set number
+" --- отображаем номера строк в 'гибридном стиле'
+" see https://jeffkreeftmeijer.com/vim-number/
+
+set number relativenumber
+augroup numbertoggle
+  autocmd!
+  autocmd BufEnter,FocusGained,InsertLeave * set relativenumber
+  autocmd BufLeave,FocusLost,InsertEnter   * set norelativenumber
+augroup END
 
 " --- подсвечиваем крайнюю колонку
 set colorcolumn=70
