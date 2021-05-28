@@ -18,4 +18,3 @@ tags
 [._]*.un~
 
 /.vim/.netrwhist
-/.vim/bundle/fzf

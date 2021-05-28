@@ -7,14 +7,20 @@
 * [bundler.vim](https://github.com/tpope/vim-bundler)
 * [commentary.vim](https://github.com/tpope/vim-commentary)
 * [dispatch.vim](https://github.com/tpope/vim-dispatch)
+* [nginx.vim](https://github.com/chr4/nginx.vim)
 * [rails.vim](https://github.com/tpope/vim-rails)
 * [ruscmd](https://github.com/powerman/vim-plugin-ruscmd)
 * [sensible.vim](https://github.com/tpope/vim-sensible)
 * [surround.vim](https://github.com/tpope/vim-surround)
+* [ultisnips](https://github.com/SirVer/ultisnips)
+* [vim-cyr](https://github.com/powerman/vim-plugin-ruscmd)
 * [vim-go](https://github.com/fatih/vim-go)
 * [vim-javascript-syntax](https://github.com/jelera/vim-javascript-syntax)
 * [vim-markdown](https://github.com/plasticboy/vim-markdown)
+* [vim-slim](https://github.com/slim-template/vim-slim)
+* [vim-snippets](https://github.com/honza/vim-snippets)
 * [vim-toml](https://github.com/cespare/vim-toml)
+* [vim-vagrant](https://github.com/hashivim/vim-vagrant)
 
 ## Использование
 
