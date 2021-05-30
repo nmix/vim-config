@@ -18,3 +18,4 @@ tags
 [._]*.un~
 
 /.vim/.netrwhist
+/.vim/UltiSnips
