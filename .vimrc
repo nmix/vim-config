@@ -13,7 +13,6 @@ set cursorline
 
 " --- отображаем номера строк в 'гибридном стиле'
 " see https://jeffkreeftmeijer.com/vim-number/
-
 set number relativenumber
 augroup numbertoggle
   autocmd!
@@ -36,6 +35,11 @@ set formatoptions+=r
 
 " --- используем системный буфер обмена по умолчанию
 set clipboard=unnamedplus
+
+" --- копируем имя файла в буфер обмена
+"     @see https://vim.fandom.com/wiki/Copy_filename_to_clipboard
+nmap ,cs :let @+=expand("%")<CR>
+nmap ,cl :let @+=expand("%:p")<CR>
 
 " --- Переопределение клавиш в режиме Insert
 " Ctrl-o вставка пустой строки выше и переход на нее 
