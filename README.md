@@ -1,12 +1,13 @@
 # vim-config
 
-**vim-config** - конфигурация редактора [vim](https://vim8.org) для работы преимущественно в RubyOnRails и GoLang.
+**vim-config** - конфигурация редактора [vim](https://vim8.org) для работы преимущественно в Ruby On Rails
 
 ## Состав модулей
 
 * [bundler.vim](https://github.com/tpope/vim-bundler)
 * [commentary.vim](https://github.com/tpope/vim-commentary)
 * [dispatch.vim](https://github.com/tpope/vim-dispatch)
+* [indentLine](https://github.com/Yggdroot/indentLine)
 * [nginx.vim](https://github.com/chr4/nginx.vim)
 * [rails.vim](https://github.com/tpope/vim-rails)
 * [ruscmd](https://github.com/powerman/vim-plugin-ruscmd)
@@ -21,6 +22,7 @@
 * [vim-snippets](https://github.com/honza/vim-snippets)
 * [vim-toml](https://github.com/cespare/vim-toml)
 * [vim-vagrant](https://github.com/hashivim/vim-vagrant)
+
 
 ## Использование
 
