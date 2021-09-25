@@ -29,6 +29,8 @@
 ```bash
 # --- первоначальная установка
 cd
+git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
+~/.fzf/install
 git clone https://github.com/nmix/vim-config.git .vim-config
 ln -s ~/.vim-config/.vimrc .vimrc
 ln -sfnv ~/.vim-config/.vim .vim
