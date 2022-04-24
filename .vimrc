@@ -91,7 +91,7 @@ let g:vim_markdown_folding_disabled = 1
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
 
 let g:UltiSnipsExpandTrigger="<c-w>"
-let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpForwardTrigger="<c-a>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
