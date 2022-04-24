@@ -85,7 +85,7 @@ au BufRead,BufNewFile *.conf setfiletype conf
 
 " --- отключение стандартной разметки Markdown
 "     см. https://github.com/plasticboy/vim-markdown
-let g:vim_markdown_folding_disabled = 1
+" let g:vim_markdown_folding_disabled = 1
 
 " --- скрываем файлы в explorer
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
