@@ -83,12 +83,22 @@ autocmd FileType dockerfile setlocal ts=4 sts=4 sw=4 et
 au BufRead,BufNewFile Vagrantfile.* setfiletype ruby
 au BufRead,BufNewFile *.conf setfiletype conf
 
-" --- отключение стандартной разметки Markdown
-"     см. https://github.com/plasticboy/vim-markdown
-" let g:vim_markdown_folding_disabled = 1
-
 " --- скрываем файлы в explorer
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
+
+
+" ===================================================================
+" --- FZF
+" ===================================================================
+
+" sudo apt-get install fzf
+" cd ~/.vim-config/.vim/bundle
+" git clone https://github.com/junegunn/fzf
+nnoremap <C-p> :<C-u>FZF<CR>
+
+" ===================================================================
+" --- UltiSnips
+" ===================================================================
 
 let g:UltiSnipsExpandTrigger="<c-w>"
 let g:UltiSnipsJumpForwardTrigger="<c-a>"
@@ -96,6 +106,17 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
+
+
+" ===================================================================
+" --- Markdown
+" ===================================================================
+
+" --- включаем подсветку синтаксиса в блоках
+let g:markdown_fenced_languages = ['html', 'python', 'ruby', 'vim', 'bash']
+" --- отключаем авто-скрытие границ блока
+let g:markdown_syntax_conceal = 0
+
 
 " ===================================================================
 " --- Ruby on Rails Section
@@ -125,28 +146,6 @@ let g:rails_projections = {
       \   "command": "int",
       \ }} 
 
-" ===================================================================
-" --- GoLang Section
-" ===================================================================
-
-autocmd FileType go setlocal ts=4 sts=4 sw=4 noet
-
-" --- отключение форматирования при сохранении
-" let g:go_fmt_autosave = 0
-" --- изменение команды форматтера
-" let g:go_fmt_command = 'goimports'
-" --- подсветка типов
-" let g:go_highlight_types = 1
-
-
-" ===================================================================
-" --- FZF Section
-" ===================================================================
-
-" sudo apt-get install fzf
-" cd ~/.vim-config/.vim/bundle
-" git clone https://github.com/junegunn/fzf
-nnoremap <C-p> :<C-u>FZF<CR>
 
 " ===================================================================
 " --- Final Section
