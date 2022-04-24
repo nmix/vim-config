@@ -4,26 +4,26 @@
 
 ## Состав модулей
 
-* fzf
-* indentLine
-* vim-bundler
-* vim-commentary
-* vim-cyr
-* vim-dispatch
-* vim-javascript-syntax
-* vim-markdown
-* vim-nginx
-* vim-rails
-* vim-sensible
-* vim-slim
-* vim-snippets
-* vim-surround
-* vim-toml
-* vim-ultisnips
-* vim-vagrant
+Name | Url
+---|---
+fzf | https://github.com/junegunn/fzf.vim
+indentLine | https://github.com/Yggdroot/indentLine
+vim-commentary | https://github.com/tpope/vim-commentary
+vim-cyr | https://github.com/powerman/vim-plugin-ruscmd
+vim-javascript-syntax | https://github.com/jelera/vim-javascript-syntax
+vim-markdown | https://github.com/preservim/vim-markdown
+vim-nginx | https://github.com/chr4/nginx.vim
+vim-rails | https://github.com/tpope/vim-rails
+vim-sensible | https://github.com/tpope/vim-sensible
+vim-slim | https://github.com/slim-template/vim-slim
+vim-snippets | https://github.com/honza/vim-snippets
+vim-surround | https://github.com/tpope/vim-surround
+vim-toml | https://github.com/cespare/vim-toml
+vim-ultisnips | https://github.com/SirVer/ultisnips
+vim-vagrant | https://github.com/vim-scripts/vim-vagrant
+
 
 ## Использование
-
 ```bash
 # --- первоначальная установка
 cd
@@ -50,11 +50,10 @@ git push -u origin master
 
 [Vim Railscasts Colorscheme](https://github.com/jpo/vim-railscasts-theme)
 
-![пример](https://clck.ru/gcVfn)
+![example](https://clck.ru/gcVfn)
 
 ## Snippets
 
 Примеры сниппетов для [vim-snippets](https://github.com/honza/vim-snippetsффaa:aA:i:) :
 
 * OpenApi/Swagger - [docs/openapi-snippets.md](docs/openapi-snippets.md)
-
