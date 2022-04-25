@@ -1,13 +1,15 @@
 # vim-config
 
-**vim-config** - конфигурация редактора [vim](https://vim8.org) для работы преимущественно в Ruby On Rails
+**vim-config** - персональная конфигурация редактора [vim](https://vim8.org)
+для выполнения широкого спектра задач.
 
-## Состав модулей
+## Состав плагинов
 
 Name | Url
 ---|---
 fzf | https://github.com/junegunn/fzf.vim
 indentLine | https://github.com/Yggdroot/indentLine
+syntastic | https://github.com/vim-syntastic/syntastic
 vim-commentary | https://github.com/tpope/vim-commentary
 vim-cyr | https://github.com/powerman/vim-plugin-ruscmd
 vim-javascript-syntax | https://github.com/jelera/vim-javascript-syntax
@@ -28,6 +30,9 @@ vim-vagrant | https://github.com/vim-scripts/vim-vagrant
 cd
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
+# ---
+pip install flake8
+# ---
 git clone https://github.com/nmix/vim-config.git .vim-config
 ln -s ~/.vim-config/.vimrc .vimrc
 ln -sfnv ~/.vim-config/.vim .vim

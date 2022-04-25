@@ -86,6 +86,18 @@ au BufRead,BufNewFile *.conf setfiletype conf
 " --- скрываем файлы в explorer
 let g:netrw_list_hide= '.*\.swp$,\~$,\.orig$'
 
+" ===================================================================
+" --- Syntastic
+" ===================================================================
+
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 
 " ===================================================================
 " --- FZF
