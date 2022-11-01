@@ -13,6 +13,7 @@ vim-commentary | https://github.com/tpope/vim-commentary
 vim-cyr | https://github.com/powerman/vim-plugin-ruscmd
 vim-javascript-syntax | https://github.com/jelera/vim-javascript-syntax
 vim-jinja | https://github.com/lepture/vim-jinja
+vim-jsonnet | https://github.com/google/vim-jsonnet.git
 vim-nginx | https://github.com/chr4/nginx.vim
 vim-rails | https://github.com/tpope/vim-rails
 vim-sensible | https://github.com/tpope/vim-sensible
