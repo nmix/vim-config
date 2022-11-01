@@ -44,11 +44,14 @@ git submodule update --init --recursive  --remote
 cd ~/.vim-config
 git submodule update --init --recursive  --remote
 
-# --- add new pluging (e.g. vim-toml)
-git submodule add https://github.com/cespare/vim-toml.git .vim/bundle/vim-toml
+# --- add new plugin (e.g. vim-jsonnet)
+git submodule add https://github.com/google/vim-jsonnet.git .vim/bundle/vim-jsonnet
 git add .
-git commit -m 'added toml module'
+git commit -m 'added jsonnet module'
 git push -u origin master
+
+# --- remove module
+# see https://gist.github.com/myusuf3/7f645819ded92bda6677
 ```
 
 ## Color scheme

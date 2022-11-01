@@ -49,3 +49,6 @@
 [submodule ".vim/bundle/vim-jinja"]
 	path = .vim/bundle/vim-jinja
 	url = https://github.com/lepture/vim-jinja.git
+[submodule ".vim/bundle/vim-jsonnet"]
+	path = .vim/bundle/vim-jsonnet
+	url = https://github.com/google/vim-jsonnet.git
