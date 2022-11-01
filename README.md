@@ -1,9 +1,8 @@
 # vim-config
 
-**vim-config** - персональная конфигурация редактора [vim](https://vim8.org)
-для выполнения широкого спектра задач.
+**vim-config** - personal [vim](https://vim8.org) configuration for dev and ops.
 
-## Состав плагинов
+## Plugins
 
 Name | Url
 ---|---
@@ -13,44 +12,46 @@ syntastic | https://github.com/vim-syntastic/syntastic
 vim-commentary | https://github.com/tpope/vim-commentary
 vim-cyr | https://github.com/powerman/vim-plugin-ruscmd
 vim-javascript-syntax | https://github.com/jelera/vim-javascript-syntax
+vim-jinja | https://github.com/lepture/vim-jinja
 vim-nginx | https://github.com/chr4/nginx.vim
 vim-rails | https://github.com/tpope/vim-rails
 vim-sensible | https://github.com/tpope/vim-sensible
 vim-slim | https://github.com/slim-template/vim-slim
 vim-snippets | https://github.com/honza/vim-snippets
 vim-surround | https://github.com/tpope/vim-surround
+vim-terraform | https://github.com/hashivim/vim-terraform
 vim-toml | https://github.com/cespare/vim-toml
 vim-ultisnips | https://github.com/SirVer/ultisnips
 vim-vagrant | https://github.com/vim-scripts/vim-vagrant
 
 
-## Использование
+## Quickstart
 ```bash
-# --- первоначальная установка
+# --- install fzf
 cd
 git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf
 ~/.fzf/install
-# ---
+# --- install flake8
 pip install flake8
-# ---
+# --- install vim-config
 git clone https://github.com/nmix/vim-config.git .vim-config
 ln -s ~/.vim-config/.vimrc .vimrc
 ln -sfnv ~/.vim-config/.vim .vim
 cd .vim-config
 git submodule update --init --recursive  --remote
 
-# --- обновление
+# --- update
 cd ~/.vim-config
 git submodule update --init --recursive  --remote
 
-# --- добавление модуля (напр. vim-toml)
+# --- add new pluging (e.g. vim-toml)
 git submodule add https://github.com/cespare/vim-toml.git .vim/bundle/vim-toml
 git add .
 git commit -m 'added toml module'
 git push -u origin master
 ```
 
-## Цветовая схема
+## Color scheme
 
 [Vim Railscasts Colorscheme](https://github.com/jpo/vim-railscasts-theme)
 
@@ -58,6 +59,6 @@ git push -u origin master
 
 ## Snippets
 
-Примеры сниппетов для [vim-snippets](https://github.com/honza/vim-snippetsффaa:aA:i:) :
+[vim-snippets](https://github.com/honza/vim-snippets) examples:
 
 * OpenApi/Swagger - [docs/openapi-snippets.md](docs/openapi-snippets.md)
