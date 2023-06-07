@@ -59,7 +59,7 @@ git push -u origin master
 
 [Vim Railscasts Colorscheme](https://github.com/jpo/vim-railscasts-theme)
 
-![example](https://clck.ru/gcVfn)
+![example](https://camo.githubusercontent.com/4ef1e0acb68b9491d24bcfa19866ce50939cd6248704f94ee5e065a1a891dfb5/68747470733a2f2f7261772e6769746875622e636f6d2f6a706f2f76696d2d7261696c7363617374732d7468656d652f6d61737465722f73637265656e73686f745f3235362e6a7067)
 
 ## Snippets
 
