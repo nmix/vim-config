@@ -140,6 +140,7 @@ autocmd FileType eruby setlocal ts=2 sts=2 sw=2 et
 autocmd FileType eruby.yaml setlocal ts=2 sts=2 sw=2 et
 autocmd FileType vue setlocal ts=2 sts=2 sw=2 et
 autocmd FileType scss setlocal ts=2 sts=2 sw=2 et
+autocmd FileType conf setlocal ts=2 sts=2 sw=2 et
 
 " --- изменение комментария по умполчанию для yml-файлов в rails-проектах
 autocmd FileType eruby.yaml setlocal commentstring=#\ %s
