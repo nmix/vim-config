@@ -52,3 +52,6 @@
 [submodule ".vim/bundle/vim-jsonnet"]
 	path = .vim/bundle/vim-jsonnet
 	url = https://github.com/google/vim-jsonnet.git
+[submodule ".vim/bundle/vim-airline"]
+	path = .vim/bundle/vim-airline
+	url = https://github.com/vim-airline/vim-airline
