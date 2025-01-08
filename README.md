@@ -9,6 +9,7 @@ Name | Url
 fzf | https://github.com/junegunn/fzf.vim
 indentLine | https://github.com/Yggdroot/indentLine
 syntastic | https://github.com/vim-syntastic/syntastic
+vim-alloy | https://github.com/grafana/vim-alloy
 vim-commentary | https://github.com/tpope/vim-commentary
 vim-cyr | https://github.com/powerman/vim-plugin-ruscmd
 vim-javascript-syntax | https://github.com/jelera/vim-javascript-syntax
